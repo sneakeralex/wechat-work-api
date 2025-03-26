@@ -24,6 +24,8 @@ wheels/
 venv/
 ENV/
 env/
+.env/
+.venv/
 
 # IDE
 .idea/
@@ -37,4 +39,11 @@ Thumbs.db
 
 # Project specific
 .env
-*.log 
+*.log
+
+# Large files
+*.dylib
+*.so
+*.dll
+*.exe
+*.bin
